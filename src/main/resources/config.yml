@@ -1,0 +1,21 @@
+#
+# Gen bucket properties
+genbucket:
+  give-perms: "genbucket.give"
+  name: "%type% &4Gen&cBucket"
+  blockstoplace: 100
+  delay: 4
+  lore:
+    - "Simply right click a block"
+    - "in the direction you want it to generate!"
+
+# Messages to display
+messages:
+  arguments:
+    toomany: "&cToo many arguments!"
+    notenough: "&4Not enough arguments! The correct usage is /genbucket [playername] [amount]"
+  nopermissions: "&4You have no permissions to use this command!"
+  founderrors:
+    player: "&4%player% not found. Please enter an online player!"
+  notinfaction: "&cYou need to be in a faction before using a genbucket."
+  cannotaccessblock: "&cYou need to be in the faction the block is in to be able to use the genbucket there."

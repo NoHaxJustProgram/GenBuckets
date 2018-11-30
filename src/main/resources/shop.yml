@@ -1,0 +1,171 @@
+#
+# Name of the shop gui
+name: "Gen bucket"
+# Max rows is 6
+rows: 6
+# Max columns is 9
+columns: 9
+gui:
+  slots:
+    0:
+      cost: 10
+      name: "&cStone &4Gen&cBucket"
+    1:
+      cost: 20
+      name: "&cSand &4Gen&cBucket"
+    2:
+      cost: 30
+      name: ""
+    3:
+      cost: 30
+      name: ""
+    4:
+      cost: 30
+      name: ""
+    5:
+      cost: 30
+      name: ""
+    6:
+      cost: 30
+      name: ""
+    7:
+      cost: 30
+      name: ""
+    8:
+      cost: 30
+      name: ""
+    9:
+      cost: 30
+      name: ""
+    10:
+      cost: 30
+      name: ""
+    11:
+      cost: 30
+      name: ""
+    12:
+      cost: 30
+      name: ""
+    13:
+      cost: 30
+      name: ""
+    14:
+      cost: 30
+      name: ""
+    15:
+      cost: 30
+      name: ""
+    16:
+      cost: 30
+      name: ""
+    17:
+      cost: 30
+      name: ""
+    18:
+      cost: 30
+      name: ""
+    19:
+      cost: 30
+      name: ""
+    20:
+      cost: 30
+      name: ""
+    21:
+      cost: 30
+      name: ""
+    22:
+      cost: 30
+      name: ""
+    23:
+      cost: 30
+      name: ""
+    24:
+      cost: 30
+      name: ""
+    25:
+      cost: 30
+      name: ""
+    26:
+      cost: 30
+      name: ""
+    27:
+      cost: 30
+      name: ""
+    28:
+      cost: 30
+      name: ""
+    29:
+      cost: 30
+      name: ""
+    30:
+      cost: 30
+      name: ""
+    31:
+      cost: 30
+      name: ""
+    32:
+      cost: 30
+      name: ""
+    33:
+      cost: 30
+      name: ""
+    34:
+      cost: 30
+      name: ""
+    35:
+      cost: 30
+      name: ""
+    36:
+      cost: 30
+      name: ""
+    37:
+      cost: 30
+      name: ""
+    38:
+      cost: 30
+      name: ""
+    39:
+      cost: 30
+      name: ""
+    40:
+      cost: 30
+      name: ""
+    41:
+      cost: 30
+      name: ""
+    42:
+      cost: 30
+      name: ""
+    43:
+      cost: 30
+      name: ""
+    44:
+      cost: 30
+      name: ""
+    45:
+      cost: 30
+      name: ""
+    46:
+      cost: 30
+      name: ""
+    47:
+      cost: 30
+      name: ""
+    48:
+      cost: 30
+      name: ""
+    49:
+      cost: 30
+      name: ""
+    50:
+      cost: 30
+      name: ""
+    51:
+      cost: 30
+      name: ""
+    52:
+      cost: 30
+      name: ""
+    53:
+      cost: 30
+      name: ""
