@@ -20,6 +20,7 @@ public class Main extends JavaPlugin implements Listener {
     public Econ econ = new Econ();
     public Essentials ess = new Essentials();
     private static Main main;
+    private ConfigManager configManager;
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -29,6 +30,12 @@ public class Main extends JavaPlugin implements Listener {
         this.getCommand("genbucket").setExecutor(new CmdGenBucket());
         getConfig().options().copyDefaults(true);
         saveConfig();
+        configManager = new ConfigManager();
+    }
+
+    public ConfigManager getConfigManager()
+    {
+        return configManager;
     }
 
     @Override

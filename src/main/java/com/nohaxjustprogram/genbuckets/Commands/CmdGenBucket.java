@@ -8,6 +8,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.List;
@@ -39,9 +40,14 @@ public class CmdGenBucket implements CommandExecutor
                 }
             }
         }
-        if ((args.length == 1 || args.length == 0) && sender instanceof Player)
+        else if (args.length == 1 && sender instanceof Player)
         {
-            Genbucket.GUI((Player) sender);
+            if (args[0].equalsIgnoreCase("shop") || args[0].equalsIgnoreCase("store"))
+            {
+                Player p = (Player) sender;
+                Inventory invToOpen = Genbucket.GUI(p);
+                p.openInventory(invToOpen);
+            }
         }
 
         return true;

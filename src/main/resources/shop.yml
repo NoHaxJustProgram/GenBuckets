@@ -3,8 +3,6 @@
 name: "Gen bucket"
 # Max rows is 6
 rows: 6
-# Max columns is 9
-columns: 9
 gui:
   slots:
     0:
