@@ -46,7 +46,7 @@ public class ConfigManager
 
     public YamlConfiguration getShopYML()
     {
-        Bukkit.getServer().getLogger().log(Level.INFO, shopYML.getInt("rows") + " rows in yml is?");
+        Bukkit.getServer().getLogger().log(Level.INFO, (shopYML.getList("gui.slots.0") == null) + " gui.slots.0 in yml is?");
         return shopYML;
     }
 
