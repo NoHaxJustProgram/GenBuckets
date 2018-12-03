@@ -17,12 +17,13 @@ public class Genbucket {
     public static Inventory inv;
     public static String inv_name;
     public static int size;
-    public static int columns;
 
     public static void initialize() {
         inv_name = pl.getConfigManager().getShopYML().getString("name");
         size = pl.getConfigManager().getShopYML().getInt("rows");
         inv = Bukkit.createInventory(null, size * 9);
+        guiSlots = new ArrayList<>();
+        name = pl.getConfig().getString("genbucket.name");
     }
 
     private static String name;
@@ -35,7 +36,7 @@ public class Genbucket {
         Inventory toReturn = Bukkit.createInventory(null, size * 9, inv_name);
         List<String> lore = pl.colorList(pl.getConfig().getStringList("genbucket.lore"));
         toReturn.setContents(inv.getContents());
-        name = pl.getConfig().getString("genbucket.name");
+        Bukkit.getServer().getLogger().log(Level.INFO, (pl.getConfigManager().getShopYML().getList("gui.slots." + i) == null) + " gui.slots.i is?");
         guiSlots = pl.getConfigManager().getShopYML().getList("gui.slots." + i);
         Bukkit.getServer().getLogger().log(Level.INFO, (guiSlots == null) + " guislots = null?");
 

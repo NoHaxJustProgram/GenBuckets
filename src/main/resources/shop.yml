@@ -6,165 +6,165 @@ rows: 6
 # Gui slots settings
 gui:
   slots:
-    0:
+    - 0:
       cost: 10
       name: "&cStone &4Gen&cBucket"
-    1:
+    - 1:
       cost: 20
       name: "&cSand &4Gen&cBucket"
-    2:
+    - 2:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    3:
+    - 3:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    4:
+    - 4:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    5:
+    - 5:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    6:
+    - 6:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    7:
+    - 7:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    8:
+    - 8:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    9:
+    - 9:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    10:
+    - 10:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    11:
+    - 11:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    12:
+    - 12:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    13:
+    - 13:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    14:
+    - 14:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    15:
+    - 15:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    16:
+    - 16:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    17:
+    - 17:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    18:
+    - 18:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    19:
+    - 19:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    20:
+    - 20:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    21:
+    - 21:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    22:
+    - 22:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    23:
+    - 23:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    24:
+    - 24:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    25:
+    - 25:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    26:
+    - 26:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    27:
+    - 27:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    28:
+    - 28:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    29:
+    - 29:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    30:
+    - 30:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    31:
+    - 31:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    32:
+    - 32:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    33:
+    - 33:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    34:
+    - 34:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    35:
+    - 35:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    36:
+    - 36:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    37:
+    - 37:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    38:
+    - 38:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    39:
+    - 39:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    40:
+    - 40:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    41:
+    - 41:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    42:
+    - 42:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    43:
+    - 43:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    44:
+    - 44:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    45:
+    - 45:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    46:
+    - 46:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    47:
+    - 47:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    48:
+    - 48:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    49:
+    - 49:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    50:
+    - 50:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    51:
+    - 51:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    52:
+    - 52:
       cost: 30
       name: "&cSand &4Gen&cBucket"
-    53:
+    - 53:
       cost: 30
       name: "&cSand &4Gen&cBucket"
