@@ -1,0 +1,168 @@
+{
+  "name": "Gen bucket",
+  "rows": 6,
+  "slots": {
+    "0": [
+      {"cost":10, "name": "&cStone &4Gen&cBucket"}
+    ],
+    "1": [
+      {"cost": 20, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "2": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "3": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "4": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "5": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "6": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "7": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "8": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "9": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "10": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "11": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "12": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "13": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "14": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "15": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "16": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "17": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "18": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "19": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "20": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "21": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "22": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "23": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "24": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "25": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "26": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "27": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "28": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "29": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "30": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "31": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "32": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "33": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "34": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "35": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "36": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "37": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "38": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "39": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "40": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "41": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "42": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "43": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "44": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "45": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "46": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "47": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "48": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "49": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "50": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "51": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "52": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ],
+    "53": [
+      {"cost":30, "name": "&cSand &4Gen&cBucket"}
+    ]
+  }
+}

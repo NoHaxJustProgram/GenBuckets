@@ -57,17 +57,17 @@ public class Econ
         return perms != null;
     }
 
-    public static Economy getEcon()
+    public Economy getEcon()
     {
         return econ;
     }
 
-    public static Permission getPerms()
+    public Permission getPerms()
     {
         return perms;
     }
 
-    public static Chat getChat()
+    public Chat getChat()
     {
         return chat;
     }

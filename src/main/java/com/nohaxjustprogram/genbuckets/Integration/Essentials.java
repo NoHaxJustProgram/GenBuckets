@@ -1,6 +1,5 @@
 package com.nohaxjustprogram.genbuckets.Integration;
 
-import com.earth2me.essentials.Worth;
 import net.ess3.api.IEssentials;
 import org.bukkit.Bukkit;
 
@@ -21,8 +20,8 @@ public class Essentials
         }
     }
 
-    public Worth getWorth()
+    public IEssentials getEssentials()
     {
-        return essentials.getWorth();
+        return essentials;
     }
 }

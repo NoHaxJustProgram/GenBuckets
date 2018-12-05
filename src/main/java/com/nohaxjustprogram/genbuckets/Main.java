@@ -4,6 +4,7 @@ import com.nohaxjustprogram.genbuckets.Commands.CmdGenBucket;
 import com.nohaxjustprogram.genbuckets.Events.BucketEmptyEvent;
 import com.nohaxjustprogram.genbuckets.Integration.Econ;
 import com.nohaxjustprogram.genbuckets.Integration.Essentials;
+import com.nohaxjustprogram.genbuckets.Listeners.GenBucketGUIClickListener;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.event.Listener;
@@ -17,14 +18,15 @@ import java.util.stream.Collectors;
 
 public class Main extends JavaPlugin implements Listener {
 
-    public Econ econ = new Econ();
-    public Essentials ess = new Essentials();
+    private Econ econ = new Econ();
+    private Essentials ess = new Essentials();
     private static Main main;
     private ConfigManager configManager;
     @Override
     public void onEnable() {
         // Plugin startup logic
         main = this;
+        this.getServer().getPluginManager().registerEvents(new GenBucketGUIClickListener(), this);
         this.getServer().getPluginManager().registerEvents(this, this);
         this.getServer().getPluginManager().registerEvents(new BucketEmptyEvent(), this);
         this.getCommand("genbucket").setExecutor(new CmdGenBucket());
@@ -67,4 +69,12 @@ public class Main extends JavaPlugin implements Listener {
         return main;
     }
 
+    public Econ getEcon() {
+        return econ;
+    }
+
+    public Essentials getEss()
+    {
+        return ess;
+    }
 }

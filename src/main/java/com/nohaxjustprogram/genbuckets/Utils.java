@@ -17,46 +17,32 @@ public class Utils {
     }
 
 
-    public static ItemStack createItem(Inventory inv, int materialId, int amount, int invSlot, String displayName, String... loreString)
+    public static ItemStack createItem(Inventory inv, Material material, int amount, int invSlot, String displayName, List<String> loreString)
     {
         ItemStack toReturn;
-
-        List<String> lore = new ArrayList<>();
-
-        toReturn = new ItemStack(Material.getMaterial(materialId), amount);
+        toReturn = new ItemStack(material, amount);
 
         ItemMeta im = toReturn.getItemMeta();
+        im.setDisplayName(displayName);
+        im.setLore(loreString);
 
-        im.setDisplayName(Utils.chat(displayName));
-        for (String s : loreString)
-        {
-            lore.add(Utils.chat(s));
-        }
-
-        im.setLore(lore);
         toReturn.setItemMeta(im);
-        inv.setItem(invSlot - 1, toReturn);
+        inv.setItem(invSlot, toReturn);
 
         return toReturn;
     }
 
-    public static ItemStack createItem(Inventory inv, int materialId, int byteId, int amount, int invSlot, String displayName, String... loreString)
+    public static ItemStack createItem(Inventory inv, int materialId, int byteId, int amount, int invSlot, String displayName, List<String> loreString)
     {
         ItemStack toReturn;
-
-        List<String> lore = new ArrayList<>();
 
         toReturn = new ItemStack(Material.getMaterial(materialId), amount, (short) byteId);
 
         ItemMeta im = toReturn.getItemMeta();
 
-        im.setDisplayName(Utils.chat(displayName));
-        for (String s : loreString)
-        {
-            lore.add(Utils.chat(s));
-        }
+        im.setDisplayName(displayName);
 
-        im.setLore(lore);
+        im.setLore(loreString);
         toReturn.setItemMeta(im);
         inv.setItem(invSlot - 1, toReturn);
 
